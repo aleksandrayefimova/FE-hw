@@ -1,0 +1,58 @@
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       text-decoration: none;
+       list-style-type: none;
+   }
+   .add_form {
+       display:flex;
+       gap: 30px;
+       padding: 20px;
+       justify-content: space-between;
+   }
+   .add_form input {
+       padding: 10px;
+       border: 1px solid rgb(186, 85,85);
+       border-radius:  30px;
+       color: rgb(186, 85,85);
+          
+   }
+   .add_form input::placeholder {
+       color: rgb(186, 85,85);
+   }
+   .add_form input:focus-visible {
+       outline: none;
+       background-color: transparent;
+   }
+   .add_form button {
+       padding: 3px 30px;
+       background-color: azure;
+       border: 1px solid rgb(186, 85,85);
+       color: rgb(186, 85,85);
+       border-radius: 30px;
+       cursor: pointer;
+       transition: all 0.3s ease-out;
+   }
+   .add_form button:hover {
+       background-color: rgb(194, 85, 85);
+       border: 1px solid rgb(194, 85, 85);
+       color: #fff;
+   }
+   .container {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       gap: 50px;
+       margin-top: 50px;
+       padding: 0px 50px;
+   }
+   
+   .card {
+       padding: 10px 30px;
+       background-color: rgb(194, 85, 85);
+       border: 1px solid rgb(194, 85, 85);
+       color: #fff;
+       border-radius: 30px;
+       cursor: pointer;
+   }
