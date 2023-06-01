@@ -56,3 +56,8 @@
        border-radius: 30px;
        cursor: pointer;
    }
+
+   body{
+       /* background-color: aliceblue; */
+       background-color: rgb(34, 63, 87);
+   }
