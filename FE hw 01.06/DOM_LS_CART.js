@@ -68,11 +68,11 @@ function renderCard(arrayData) {
         contentContainer.append(cardElement);
         
         button_add.addEventListener("click", () => {
-            counterElement.innerText = ++elem.count;
-
+            
             productsData.map((el) => {
                 if (el.id === elem.id) {
-                    el.count++;
+                    counterElement.innerText = ++elem.count;
+                    // el.count++;
                     return el;
                 } else {
                     return el;
@@ -81,16 +81,16 @@ function renderCard(arrayData) {
             setLS(productsData);
         });
         button_reduce.addEventListener("click", () => {
-            counterElement.innerText = --elem.count;
             if (elem.count <= 0) {
                 cardElement.remove();
                 productsData = productsData.filter((el) => el.id !== elem.id);
                 setLS(productsData); 
             }
             const a = productsData
-                .map((el) => {
-                    if (el.id === elem.id) {
-                        --el.count;
+            .map((el) => {
+                if (el.id === elem.id) {
+                        counterElement.innerText = --elem.count;
+                        // --el.count;
                         return el;
                     } else {
                         return el;
