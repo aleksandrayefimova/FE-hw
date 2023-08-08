@@ -1,0 +1,54 @@
+.italic{
+
+font-style: italic;
+
+}
+
+
+/* ------------- offer*/
+.offer_text{
+    min-height: 100%;
+    background: #62D0DF;
+    color: #fff;
+    padding: 131px 160px 128px 170px;
+
+}
+.offer_text h2{
+    width: 361px;
+height: 51px;
+flex-shrink: 0;
+font-size: 36px;
+font-style: italic;
+font-weight: 400;
+line-height: 76.83%; /* 27.659px */
+letter-spacing: -0.216px;
+
+}
+.offer_text p{
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 147.75%; 
+    
+    margin: 28px 0px 0px 0px;
+
+}
+
+/* ------------rent text */
+.rent_text{
+    color: #22356F;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.216px;
+
+    padding: 240px 60px 240px 60px;
+}
+.rent_text h2{
+    line-height: 76.83%;
+}
+.rent_text p{
+    line-height: 147.75%;
+
+    margin-top: 50px;
+}

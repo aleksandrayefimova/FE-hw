@@ -1,0 +1,16 @@
+.description_container {
+    display: flex;
+    gap: 50px;
+
+    z-index: 2;
+    background: #f4f9e2;
+    min-height: 840px;
+    padding: 220px 57px 0px 180px;
+    margin: -220px 0 0 0;
+}
+@media (max-width: 1270px) {
+    .description_container {
+        justify-content: center;
+        padding: 220px 60px 0px 60px;
+    }
+}

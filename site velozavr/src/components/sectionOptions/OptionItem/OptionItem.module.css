@@ -1,0 +1,16 @@
+.item {
+    padding: 100px 70px;
+}
+.item p {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    border-top: 1px solid #ffffff;
+
+    color: #fff;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 106.38%;
+    letter-spacing: -0.192px;
+}

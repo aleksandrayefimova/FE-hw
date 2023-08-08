@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+.container:nth-child(1) {
+    max-width: 920px;
+}
+/* @media (max-width: 1270px) {
+
+    .container {
+        width: 100%;
+    }
+} */

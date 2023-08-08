@@ -1,0 +1,22 @@
+.nav_menu {
+    display: flex;
+}
+.nav_menu li {
+    list-style: none;
+}
+.nav_menu a {
+    margin: 0px 0px 0px 69px;
+    text-decoration: none;
+    display: block;
+    padding: 0px 0px 10px 0px;
+
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 112.29%; /* 15.721px */
+}
+
+.nav_menu a:hover {
+    border-bottom: 1px solid black;
+}

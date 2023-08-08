@@ -1,0 +1,14 @@
+.options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 480px;
+}
+
+@media (max-width: 1270px) {
+    .options {
+        grid-template-columns: repeat(1, 80%);
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}

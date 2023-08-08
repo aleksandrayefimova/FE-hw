@@ -1,0 +1,15 @@
+.image_container {
+    height: 100%;
+}
+
+@media (max-width: 1270px) {
+    .image_container {
+        display: none;
+        height: 100%;
+        overflow: hidden;
+    }
+    .image_container img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
