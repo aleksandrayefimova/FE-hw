@@ -1,0 +1,25 @@
+.count_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count_container p {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 20px 0px 20px;
+}
+
+.count_container button {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: gray;
+}
+.count_container button:hover{
+    color: rgb(0, 0, 0);
+
+}
